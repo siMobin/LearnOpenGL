@@ -1,0 +1,4 @@
+*.h linguist-generated
+glad/*.c linguist-generated
+
+*.dll binary

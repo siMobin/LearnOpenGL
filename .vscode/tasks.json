@@ -15,11 +15,16 @@
         "-I${workspaceFolder}/glfw-3.4.bin.WIN64/include",
         "-L${workspaceFolder}/glfw-3.4.bin.WIN64/lib-mingw-w64",
 
+        "-I${workspaceFolder}/freeglut/include",
+        "-L${workspaceFolder}/freeglut/lib/x64",
+
         "-o",
-        "${fileDirname}\\${fileBasenameNoExtension}.exe",
+        "${workspaceFolder}\\out\\${fileBasenameNoExtension}.exe",
 
         "-lglfw3",
+        "-lfreeglut",
         "-lopengl32",
+        "-lglu32",
         "-lgdi32",
         "-luser32",
         "-lshell32",

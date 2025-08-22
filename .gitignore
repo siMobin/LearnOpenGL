@@ -2,5 +2,6 @@
 !.vscode/tasks.json
 !.vscode/extensions.json
 
+temp.*
 temp/*
 *.exe
